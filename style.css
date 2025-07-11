@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+body {
+  padding-top: 90px;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #000000, #0d0d0d, #1a1a1a, #333333, #4d4d4d);
+
+
+}
+
+.navbar {
+  background-color: black;
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.navbar-toggler {
+  border-color: white;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.custom_port {
+  font-size: 32px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.homesec {
+  background: linear-gradient(135deg, #0f0f0f, #1a1a2e, #3d3232);
+  height: 80vh;
+}
+
+.btn-offwhite{
+
+  color: #fff;
+  border: 1px solid white;
+  font-weight: 600;
+}
+
+.btn-offwhite:hover{
+  color: rgb(55, 243, 8);
+}
+
+hr{
+  border: 3px solid white;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+h1,h2,h3,h4,h5{
+
+  font-family: "Playfair Display", serif;
+}
